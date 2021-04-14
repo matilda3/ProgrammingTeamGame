@@ -991,8 +991,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 17, y: 7}
       - {x: -6, y: 7}
-      - {x: -6, y: -5}
-      - {x: 17, y: -5}
+      - {x: -6, y: -3}
+      - {x: 17, y: -3}
 --- !u!4 &137758519
 Transform:
   m_ObjectHideFlags: 0
@@ -2361,11 +2361,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 249978109}
     m_Modifications:
-    - target: {fileID: 5863072636185711828, guid: eea4c4b694176b94fa491bbbf2622e53,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 5863072636185711831, guid: eea4c4b694176b94fa491bbbf2622e53,
         type: 3}
       propertyPath: m_RootOrder
@@ -2658,7 +2653,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.024300575, y: -0.18999934, z: -10}
+  m_LocalPosition: {x: -0.4122076, y: -0.05587983, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1761833322}
@@ -2713,7 +2708,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.6904763, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2876,11 +2871,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 870880550}
     m_Modifications:
-    - target: {fileID: 5863072636185711828, guid: eea4c4b694176b94fa491bbbf2622e53,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 5863072636185711831, guid: eea4c4b694176b94fa491bbbf2622e53,
         type: 3}
       propertyPath: m_RootOrder
@@ -7539,11 +7529,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 249978109}
     m_Modifications:
-    - target: {fileID: 5863072636185711828, guid: eea4c4b694176b94fa491bbbf2622e53,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 5863072636185711831, guid: eea4c4b694176b94fa491bbbf2622e53,
         type: 3}
       propertyPath: m_RootOrder
@@ -7926,11 +7911,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 870880550}
     m_Modifications:
-    - target: {fileID: 5863072636185711828, guid: eea4c4b694176b94fa491bbbf2622e53,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 5863072636185711831, guid: eea4c4b694176b94fa491bbbf2622e53,
         type: 3}
       propertyPath: m_RootOrder
@@ -9366,16 +9346,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: torches_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172553048552601997, guid: eea4c4b694176b94fa491bbbf2622e53,
-        type: 3}
-      propertyPath: m_Range
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172553048552601997, guid: eea4c4b694176b94fa491bbbf2622e53,
-        type: 3}
-      propertyPath: m_DrawHalo
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eea4c4b694176b94fa491bbbf2622e53, type: 3}
