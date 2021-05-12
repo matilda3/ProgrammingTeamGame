@@ -12,6 +12,8 @@ public class DogController : MonoBehaviour
     public GameObject key;
     public textcontroller text;
 
+    Animator animator;
+
     int boneIndex = 0;
     bool hasMoved = false;
 
@@ -19,18 +21,24 @@ public class DogController : MonoBehaviour
 
     public float speed = 15.0f;
 
+    void Start(){
+        animator = GetComponent<Animator>();
+    }
+
     void FixedUpdate() {
         for (int i = 0; i < playerScript.inventory.Count; i++) {
             Vector2 position = dogRb.position;
             if (playerScript.inventory[i].ToString() == "bone(Clone) (UnityEngine.GameObject)" && playerScript.inventory[i].activeSelf && playerTransform.position.y < -1.5 && playerTransform.position.x > -4.2 && playerTransform.position.x < -3.5) {
                 if (position.x > -3.75) {
+                    animator.SetBool("moving", true);
                     position.x = position.x - speed * Time.deltaTime;
                     dogRb.MovePosition(position);
                     boneIndex = i;
-
                 }
                 else{
                     hasMoved = true;
+                    animator.SetBool("moving", false);
+                    animator.SetBool("still", true);
                 }
             }
         }
